@@ -1,0 +1,10 @@
+{
+  "name": "MirAI-Lab",
+  "description": "SaaS・ゲーム・小説を横断するクリエイティブ集団 MirAI-Lab のポートフォリオサイト",
+  "url": "https://mirailab.dev",
+  "ogImage": "/images/og-default.png",
+  "links": {
+    "github": "https://github.com/mirailab",
+    "twitter": "https://twitter.com/mirailab"
+  }
+}

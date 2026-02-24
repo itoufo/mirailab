@@ -1,0 +1,23 @@
+{
+  "slug": "mirai-post",
+  "title": "MirAI-POST",
+  "description": "AIを活用したSNS運用最適化プラットフォーム。LLMO/SEO診断・セキュリティ診断をワンストップで提供し、コンサルティングまでカバーするSaaS。X・Instagram・note対応のマルチプラットフォーム運用を実現。",
+  "category": "saas",
+  "thumbnail": "/images/works/mirai-post.svg",
+  "tags": ["AI", "SaaS", "SEO", "LLMO", "Security", "SNS"],
+  "techStack": ["Next.js", "TypeScript", "React", "Supabase", "Deno", "Claude API", "Stripe", "Tailwind CSS", "Playwright"],
+  "members": ["yuho-ito"],
+  "url": "https://app.sns-opt.com",
+  "featured": true,
+  "date": "2026-01-15",
+  "services": [
+    {
+      "name": "LLMO/SEO診断ツール・コンサル",
+      "description": "AIによるキーワード分析・コンテンツ最適化診断を提供。LLM時代のSEO（LLMO）に対応した診断ツールと、専門コンサルティングをセットで展開。"
+    },
+    {
+      "name": "セキュリティ診断ツール・コンサル",
+      "description": "Webアプリケーションの脆弱性診断を自動化。OWASP Top 10に準拠したセキュリティスキャンと、改善提案を含むコンサルティングを提供。"
+    }
+  ]
+}

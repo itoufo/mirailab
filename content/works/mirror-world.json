@@ -1,0 +1,13 @@
+{
+  "slug": "mirror-world",
+  "title": "鏡像世界 -Mirror World-",
+  "description": "異世界転生×AIをテーマにしたWeb小説。小説家になろうで連載中。異世界にAI文明が存在したら？という問いを描く。",
+  "category": "novel",
+  "thumbnail": "/images/works/mirror-world.svg",
+  "tags": ["Web Novel", "Fantasy", "AI", "Isekai"],
+  "techStack": ["小説家になろう", "AI Assisted Writing"],
+  "members": ["ren"],
+  "url": "https://ncode.syosetu.com/example",
+  "featured": true,
+  "date": "2025-06-01"
+}

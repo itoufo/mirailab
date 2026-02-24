@@ -1,0 +1,22 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#312e81"/>
+      <stop offset="40%" style="stop-color:#4338ca"/>
+      <stop offset="70%" style="stop-color:#0891b2"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <circle cx="650" cy="80" r="120" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="150" cy="370" r="160" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="100" width="640" height="250" rx="20" fill="rgba(255,255,255,0.08)"/>
+  <text x="400" y="200" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="800" filter="url(#shadow)">MirAI-POST</text>
+  <text x="400" y="250" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="system-ui, sans-serif" font-size="20" font-weight="500">AI-Powered SNS Optimization Platform</text>
+  <text x="260" y="300" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-family="system-ui, sans-serif" font-size="14">LLMO / SEO Diagnostics</text>
+  <text x="540" y="300" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-family="system-ui, sans-serif" font-size="14">Security Diagnostics</text>
+  <line x1="390" y1="285" x2="390" y2="310" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+</svg>

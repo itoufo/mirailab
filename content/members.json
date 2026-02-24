@@ -1,0 +1,42 @@
+[
+  {
+    "id": "yuki",
+    "name": "Yuki",
+    "role": "Lead Engineer / PM",
+    "bio": "フルスタックエンジニア。SaaSの設計からゲーム開発まで幅広く担当。AIとクリエイティブの融合を探求中。",
+    "avatar": "/images/members/yuki.svg",
+    "links": {
+      "github": "https://github.com/yuki",
+      "twitter": "https://twitter.com/yuki"
+    }
+  },
+  {
+    "id": "ren",
+    "name": "Ren",
+    "role": "Creative Director / Writer",
+    "bio": "小説家兼ゲームシナリオライター。物語の力でプロダクトに命を吹き込む。Web小説連載中。",
+    "avatar": "/images/members/ren.svg",
+    "links": {
+      "twitter": "https://twitter.com/ren"
+    }
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "role": "Designer / Frontend Engineer",
+    "bio": "UI/UXデザインとフロントエンド実装を担当。美しくて使いやすいインターフェースを追求。",
+    "avatar": "/images/members/sora.svg",
+    "links": {
+      "github": "https://github.com/sora",
+      "website": "https://sora.dev"
+    }
+  },
+  {
+    "id": "yuho-ito",
+    "name": "伊東雄歩",
+    "role": "Full-Stack Engineer / SaaS Architect",
+    "bio": "SaaS設計からAI統合、セキュリティ診断まで一気通貫で手がけるフルスタックエンジニア。MirAI-POSTの企画・設計・実装を主導。",
+    "avatar": "/images/members/yuho-ito.svg",
+    "links": {}
+  }
+]

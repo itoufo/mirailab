@@ -1,0 +1,40 @@
+---
+title: "AIを活用したSaaS開発の舞台裏"
+description: "TaskFlowの開発で学んだ、AI機能をSaaSに組み込む際の設計パターンと実践知見をまとめます。"
+date: "2025-12-15"
+tags: ["AI", "SaaS", "Next.js", "開発"]
+author: "yuki"
+thumbnail: "/images/blog/saas-ai.svg"
+---
+
+## はじめに
+
+MirAI-Lab の最新プロダクト「TaskFlow」は、AIが自動でタスクを分解・優先度付けしてくれるプロジェクト管理SaaSです。この記事では、開発の舞台裏で得た知見を共有します。
+
+## AI機能の設計パターン
+
+SaaSにAI機能を組み込む際、大きく3つのパターンがあります。
+
+### 1. リアルタイム推論型
+
+ユーザーの入力に対してリアルタイムでAIが応答するパターン。ChatGPTのような対話型UIがこれにあたります。
+
+```typescript
+const response = await openai.chat.completions.create({
+  model: "gpt-4",
+  messages: [{ role: "user", content: userInput }],
+  stream: true,
+});
+```
+
+### 2. バッチ処理型
+
+定期的にまとめてAI処理を実行するパターン。TaskFlowではタスクの自動分類にこのパターンを採用しています。
+
+### 3. ハイブリッド型
+
+TaskFlowで最終的に採用したのがこのパターン。ユーザーの操作をトリガーにAI処理を開始しつつ、結果はキャッシュして再利用します。
+
+## まとめ
+
+AI機能の組み込みは、適切なパターン選択とフォールバック設計が重要です。次回はSupabaseとの連携パターンについて書く予定です。

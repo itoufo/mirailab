@@ -1,0 +1,11 @@
+{
+  "slug": "pixel-dungeon",
+  "title": "Pixel Dungeon: AI Edition",
+  "description": "AIが自動生成するローグライクダンジョンRPG。プレイするたびに新しいダンジョンと物語が待っている。",
+  "category": "game",
+  "thumbnail": "/images/works/pixel-dungeon.svg",
+  "tags": ["Roguelike", "Pixel Art", "Procedural Generation"],
+  "techStack": ["Godot", "GDScript", "Python", "OpenAI API"],
+  "members": ["yuki", "ren"],
+  "date": "2025-04-10"
+}
