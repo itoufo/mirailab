@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { FadeIn } from "@/components/ui/motion";
 import { ArrowRight, Sparkles } from "lucide-react";
@@ -7,23 +8,32 @@ import { ArrowRight, Sparkles } from "lucide-react";
 export function Hero() {
   return (
     <section className="relative overflow-hidden">
-      {/* Gradient background */}
+      {/* Background image */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-background to-background" />
-        <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-primary/5 blur-3xl" />
-        <div className="absolute bottom-0 left-0 h-96 w-96 rounded-full bg-cyan-500/5 blur-3xl" />
+        <Image
+          src="/images/hero/hero-bg.png"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        {/* Left-darkened overlay keeps text readable while the light flow stays visible on the right */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#030712] via-[#030712]/85 to-[#030712]/25" />
+        {/* Blend the bottom edge into the page below (theme-aware) */}
+        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent" />
       </div>
 
       <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6 sm:py-32 lg:py-40">
         <div className="max-w-3xl">
           <FadeIn delay={0}>
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-muted/50 px-4 py-1.5 text-sm text-muted-foreground">
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-sm text-slate-300 backdrop-blur-sm">
               <Sparkles className="h-3.5 w-3.5 text-primary" />
               SaaS / Service / Education / Publishing
             </div>
           </FadeIn>
           <FadeIn delay={0.1}>
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
               <span className="text-primary">Precision</span>
               {" & "}
               <span className="bg-gradient-to-r from-cyan-400 to-violet-400 bg-clip-text text-transparent">
@@ -32,7 +42,7 @@ export function Hero() {
             </h1>
           </FadeIn>
           <FadeIn delay={0.2}>
-            <p className="mt-6 text-lg text-muted-foreground sm:text-xl">
+            <p className="mt-6 text-lg text-slate-300 sm:text-xl">
               MirAI-Lab は、自社オリジナルサービスを軸に教育・コンサルティング・出版へと事業を広げる
               クリエイティブ集団です。テクノロジーとクリエイティビティの融合で、新しい価値を生み出します。
             </p>
@@ -43,7 +53,12 @@ export function Hero() {
                 Services を見る
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button href="/partners" variant="outline" size="lg">
+              <Button
+                href="/partners"
+                variant="outline"
+                size="lg"
+                className="border-white/30 !text-white hover:bg-white/10"
+              >
                 参画企業を見る
               </Button>
             </div>
