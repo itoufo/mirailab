@@ -1,9 +1,13 @@
 "use client";
 
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import { Button } from "@/components/ui/button";
 import { FadeIn } from "@/components/ui/motion";
 import { ArrowRight, Sparkles } from "lucide-react";
+
+// Client-only WebGL background; poster image below stays as fallback/LCP.
+const HeroCanvas = dynamic(() => import("./hero-canvas"), { ssr: false });
 
 export function Hero() {
   return (
@@ -18,6 +22,8 @@ export function Hero() {
           sizes="100vw"
           className="object-cover"
         />
+        {/* Interactive particle flow over the poster */}
+        <HeroCanvas />
         {/* Left-darkened overlay keeps text readable while the light flow stays visible on the right */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#030712] via-[#030712]/85 to-[#030712]/25" />
         {/* Blend the bottom edge into the page below (theme-aware) */}
