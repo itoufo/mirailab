@@ -1,23 +1,31 @@
 {
   "slug": "mirai-post",
   "title": "MirAI-POST",
-  "description": "AIを活用したSNS運用最適化プラットフォーム。LLMO/SEO診断・セキュリティ診断をワンストップで提供し、コンサルティングまでカバーするSaaS。X・Instagram・note対応のマルチプラットフォーム運用を実現。",
+  "description": "プロフィール設計とプロモーション設定から「自分の分身」＝AIペルソナ（キャラクター人格）を作り、その人格でSNSを運用できるプラットフォーム。設計したペルソナの声・ブランドで X・Instagram・note の投稿文／画像／記事をAI生成し、予約・自動投稿・分析までを一気通貫。Chrome拡張・公開API・MCP、マルチテナント(OEM)提供に対応。",
   "category": "saas",
-  "thumbnail": "/images/works/mirai-post.svg",
-  "tags": ["AI", "SaaS", "SEO", "LLMO", "Security", "SNS"],
-  "techStack": ["Next.js", "TypeScript", "React", "Supabase", "Deno", "Claude API", "Stripe", "Tailwind CSS", "Playwright"],
+  "thumbnail": "/images/releases/miraipost-launch.png",
+  "tags": ["AI", "SaaS", "SNS", "AIペルソナ", "Automation"],
+  "techStack": ["Next.js", "TypeScript", "React", "Supabase", "Supabase Edge Functions", "Anthropic Claude", "Stripe", "Playwright"],
   "members": ["yuho-ito"],
-  "url": "https://app.sns-opt.com",
+  "url": "https://mirai-post.netlify.app",
   "featured": true,
   "date": "2026-01-15",
   "services": [
     {
-      "name": "LLMO/SEO診断ツール・コンサル",
-      "description": "AIによるキーワード分析・コンテンツ最適化診断を提供。LLM時代のSEO（LLMO）に対応した診断ツールと、専門コンサルティングをセットで展開。"
+      "name": "「自分の分身」AIペルソナ設計【最大の特徴】",
+      "description": "プロフィール設計とプロモーション設定で、人物像・価値観・ブランド・発信戦略を定義。詳細なほどAIが“あなたらしい”発信を再現する、キャラクター人格の設計エンジン。"
     },
     {
-      "name": "セキュリティ診断ツール・コンサル",
-      "description": "Webアプリケーションの脆弱性診断を自動化。OWASP Top 10に準拠したセキュリティスキャンと、改善提案を含むコンサルティングを提供。"
+      "name": "ペルソナの声でマルチPF投稿生成",
+      "description": "設計した分身の人格・ブランドで、X・Instagram・note の投稿文／画像／記事をAI生成。キャラクターを横断的に一貫させる。"
+    },
+    {
+      "name": "予約・自動投稿と分析",
+      "description": "予約投稿／自動投稿のスケジューリングと、分析・ランキング機能で運用を継続的に最適化。"
+    },
+    {
+      "name": "公開API・MCP / OEM",
+      "description": "公開APIとMCPサーバを提供。マルチテナント(OEM)で他社ブランド展開にも対応。"
     }
   ]
 }

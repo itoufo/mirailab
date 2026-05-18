@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "mirai-post",
+    "name": "MirAI-POST",
+    "group": "original",
+    "tagline": "「自分の分身」を作って動かす AI SNS運用プラットフォーム",
+    "description": "プロフィール設計とプロモーション設定から「自分の分身」＝AIペルソナ（キャラクター人格）を生み出し、その人格でSNSを運用できるのが最大の特徴。設計したペルソナの声・ブランドで X・Instagram・note の投稿文／画像／記事をAI生成し、予約・自動投稿・分析まで一気通貫。Chrome拡張・公開API・MCP、マルチテナント(OEM)提供に対応する。",
+    "url": "https://mirai-post.netlify.app",
+    "logo": "/images/releases/miraipost-launch.png",
+    "tags": ["SaaS", "AI", "SNS", "AIペルソナ"],
+    "featured": true,
+    "releaseLabel": "第1弾",
+    "releaseDate": "2026-01-15"
+  },
+  {
+    "slug": "miraipage",
+    "name": "miraipage",
+    "group": "original",
+    "tagline": "セルフブランディングの決定版 — AIネイティブSNS",
+    "description": "創作・発信・コミュニティをひとつにまとめ、設計段階から公開API・MCPサーバを搭載した、人とAIが対等に投稿・読解・対話できるAIネイティブSNS。更に、記事執筆機能とサロン機能を同居させた設計によって、セルフブランディングからつながる継続的な収益化を実現する、セルフブランディングの決定版です。",
+    "url": "https://miraipage.net",
+    "logo": "/images/releases/miraipage-launch.png",
+    "tags": ["AI", "SNS", "セルフブランディング", "収益化"],
+    "featured": true,
+    "releaseLabel": "第2弾",
+    "releaseDate": "2026-05-11"
+  },
+  {
+    "slug": "shinjinrui",
+    "name": "新人類育成計画",
+    "group": "education",
+    "tagline": "AI時代の「自分で考える力」を育てる",
+    "description": "AI×プログラミングを通じて「自分で考え、試し、形にする力」を取り戻す育成プログラム。一人では続かない学びを、コミュニティで支える。",
+    "url": "",
+    "logo": "/images/services/shinjinrui.svg",
+    "tags": ["教育", "AI", "Community"]
+  },
+  {
+    "slug": "digitech-quest",
+    "name": "DigitechQuest",
+    "group": "education",
+    "tagline": "実践型 DX人材育成コンテスト",
+    "description": "コンテスト形式で課題解決に挑みながら、即戦力のDXスキルを身につける人材育成プログラム。学びをアウトプットに直結させる。",
+    "url": "",
+    "logo": "/images/services/digitech-quest.svg",
+    "tags": ["教育", "DX", "Contest"]
+  },
+  {
+    "slug": "llmo-consulting",
+    "name": "LLMOコンサルティング",
+    "group": "consulting",
+    "tagline": "LLM時代の可視性戦略（LLMO）支援",
+    "description": "生成AI・LLMに引用される情報設計（LLMO）を軸に、検索とAI双方からの可視性を最大化するコンサルティング。診断から実装支援まで伴走する。",
+    "url": "",
+    "logo": "/images/services/llmo-consulting.svg",
+    "tags": ["Consulting", "LLMO", "SEO"]
+  },
+  {
+    "slug": "road-publishing",
+    "name": "ロード出版",
+    "group": "publishing",
+    "tagline": "コンテンツ出版事業",
+    "description": "Webメディア・電子書籍を軸としたコンテンツ出版事業。企画・制作・配信までを一貫して手がける。",
+    "url": "",
+    "logo": "/images/services/road-publishing.svg",
+    "tags": ["出版", "Media", "Content"]
+  }
+]

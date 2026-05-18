@@ -1,4 +1,45 @@
-export type CategoryId = "saas" | "game" | "novel" | "tool" | "other";
+export type CategoryId = "saas" | "game" | "tool" | "other";
+
+export type ServiceGroup = "original" | "education" | "consulting" | "publishing";
+
+export interface Service {
+  slug: string;
+  name: string;
+  group: ServiceGroup;
+  tagline: string;
+  description: string;
+  url?: string;
+  logo: string;
+  tags: string[];
+  featured?: boolean;
+  releaseLabel?: string;
+  releaseDate?: string;
+}
+
+export interface Partner {
+  id: string;
+  name: string;
+  description: string;
+  url?: string;
+  logo: string;
+  tags: string[];
+}
+
+export type ReleaseType = "launch" | "feature" | "improvement" | "campaign";
+
+export interface Release {
+  slug: string;
+  service: string;
+  serviceName: string;
+  type: ReleaseType;
+  title: string;
+  date: string;
+  provider: string;
+  summary: string;
+  url?: string;
+  image?: string;
+  body: string;
+}
 
 export interface Category {
   id: CategoryId;

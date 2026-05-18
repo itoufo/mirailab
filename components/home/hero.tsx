@@ -19,7 +19,7 @@ export function Hero() {
           <FadeIn delay={0}>
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-muted/50 px-4 py-1.5 text-sm text-muted-foreground">
               <Sparkles className="h-3.5 w-3.5 text-primary" />
-              SaaS / Game / Novel
+              SaaS / Service / Education / Publishing
             </div>
           </FadeIn>
           <FadeIn delay={0.1}>
@@ -33,18 +33,18 @@ export function Hero() {
           </FadeIn>
           <FadeIn delay={0.2}>
             <p className="mt-6 text-lg text-muted-foreground sm:text-xl">
-              MirAI-Lab は SaaS・ゲーム・小説を横断するクリエイティブ集団です。
-              テクノロジーとクリエイティビティの融合で、新しい価値を生み出します。
+              MirAI-Lab は、自社オリジナルサービスを軸に教育・コンサルティング・出版へと事業を広げる
+              クリエイティブ集団です。テクノロジーとクリエイティビティの融合で、新しい価値を生み出します。
             </p>
           </FadeIn>
           <FadeIn delay={0.3}>
             <div className="mt-8 flex flex-wrap gap-4">
-              <Button href="/works" size="lg">
-                Works を見る
+              <Button href="/services" size="lg">
+                Services を見る
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button href="/about" variant="outline" size="lg">
-                About Us
+              <Button href="/partners" variant="outline" size="lg">
+                参画企業を見る
               </Button>
             </div>
           </FadeIn>

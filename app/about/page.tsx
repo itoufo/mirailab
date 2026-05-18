@@ -6,7 +6,7 @@ import { Code, Gamepad2, BookOpen, Cpu } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "MirAI-Lab のチーム紹介。SaaS・ゲーム・小説を横断するクリエイティブ集団です。",
+  description: "MirAI-Lab のチーム紹介。SaaS・自社サービス・教育・コンサルティング・出版を展開するクリエイティブ集団です。",
 };
 
 const values = [
@@ -22,8 +22,8 @@ const values = [
   },
   {
     icon: Gamepad2,
-    title: "Multi-Genre",
-    description: "SaaS・ゲーム・小説など、ジャンルの壁を越えて制作する。",
+    title: "Multi-Domain",
+    description: "SaaS・サービス・教育・出版など、領域の壁を越えて事業を展開する。",
   },
   {
     icon: BookOpen,
@@ -45,7 +45,8 @@ export default function AboutPage() {
         <div className="max-w-3xl">
           <p className="text-muted-foreground leading-relaxed">
             MirAI-Lab は、AI時代のクリエイティブを探求するチームです。
-            SaaS開発、ゲーム制作、小説執筆と、多岐にわたるジャンルでプロダクトを生み出しています。
+            自社オリジナルサービスを軸に、教育・コンサルティング・出版へと事業を広げ、
+            参画企業とともに価値を生み出しています。
             「Precision & Creativity」をモットーに、技術的な精度と創造性の両立を目指しています。
           </p>
         </div>

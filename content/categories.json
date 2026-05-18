@@ -1,7 +1,3 @@
 [
-  { "id": "saas", "label": "SaaS", "description": "Webアプリ・SaaS" },
-  { "id": "game", "label": "Game", "description": "ゲーム" },
-  { "id": "novel", "label": "Novel", "description": "小説・文芸" },
-  { "id": "tool", "label": "Tool", "description": "開発ツール" },
-  { "id": "other", "label": "Other", "description": "その他" }
+  { "id": "saas", "label": "SaaS", "description": "Webアプリ・SaaS" }
 ]

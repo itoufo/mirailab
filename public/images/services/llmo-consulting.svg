@@ -1,0 +1,18 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a"/>
+      <stop offset="55%" style="stop-color:#1d4ed8"/>
+      <stop offset="100%" style="stop-color:#60a5fa"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <circle cx="660" cy="80" r="120" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="140" cy="380" r="160" fill="rgba(255,255,255,0.05)"/>
+  <rect x="80" y="120" width="640" height="210" rx="20" fill="rgba(255,255,255,0.08)"/>
+  <text x="400" y="215" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="50" font-weight="800" filter="url(#shadow)">LLMO Consulting</text>
+  <text x="400" y="262" text-anchor="middle" fill="rgba(255,255,255,0.72)" font-family="system-ui, sans-serif" font-size="19" font-weight="500">Visibility Strategy for the LLM Era</text>
+</svg>

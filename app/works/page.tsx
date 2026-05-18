@@ -5,7 +5,7 @@ import { WorksPageClient } from "./works-client";
 
 export const metadata: Metadata = {
   title: "Works",
-  description: "MirAI-Lab の制作物一覧。SaaS・ゲーム・小説・ツールなど多ジャンルの作品を紹介。",
+  description: "MirAI-Lab の制作物一覧。フラッグシップSaaS「MirAI-POST」「miraipage」を紹介。",
 };
 
 export default function WorksPage() {

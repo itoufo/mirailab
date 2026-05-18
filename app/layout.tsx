@@ -23,11 +23,11 @@ export const metadata: Metadata = {
     template: "%s | MirAI-Lab",
   },
   description:
-    "SaaS・ゲーム・小説を横断するクリエイティブ集団 MirAI-Lab のポートフォリオサイト",
+    "SaaS・自社サービス・教育・コンサルティング・出版を展開する MirAI-Lab のポートフォリオサイト",
   openGraph: {
     title: "MirAI-Lab",
     description:
-      "SaaS・ゲーム・小説を横断するクリエイティブ集団 MirAI-Lab のポートフォリオサイト",
+      "SaaS・自社サービス・教育・コンサルティング・出版を展開する MirAI-Lab のポートフォリオサイト",
     url: "https://mirailab.dev",
     siteName: "MirAI-Lab",
     locale: "ja_JP",

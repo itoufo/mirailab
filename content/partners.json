@@ -1,0 +1,26 @@
+[
+  {
+    "id": "walker",
+    "name": "株式会社ウォーカー",
+    "description": "SaaS・AIシステム開発を手がける開発会社。12年にわたる大規模システム構築の実績を持ち、MirAI-Lab の技術基盤を担う。",
+    "url": "https://walker.co.jp",
+    "logo": "/images/partners/walker.svg",
+    "tags": ["SaaS開発", "AI", "受託開発"]
+  },
+  {
+    "id": "sunu",
+    "name": "sunu",
+    "description": "旅館支援・メディア運営・コンサルティングを展開。地域・観光領域のデジタル化と情報発信を支援する。",
+    "url": "https://sunu25.com",
+    "logo": "/images/partners/sunu.svg",
+    "tags": ["旅館支援", "メディア運営", "コンサルティング"]
+  },
+  {
+    "id": "haiia",
+    "name": "HAIIA",
+    "description": "教育支援・研修・コンサルティングを提供。組織と個人の学びと成長を伴走支援する。",
+    "url": "",
+    "logo": "/images/partners/haiia.svg",
+    "tags": ["教育支援", "研修", "コンサルティング"]
+  }
+]

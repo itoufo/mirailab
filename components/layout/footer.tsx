@@ -17,11 +17,20 @@ export function Footer() {
           </div>
 
           <div className="flex items-center gap-6">
-            <Link href="/about" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-              About
+            <Link href="/services" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+              Services
+            </Link>
+            <Link href="/releases" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+              Releases
             </Link>
             <Link href="/works" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
               Works
+            </Link>
+            <Link href="/partners" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+              Partners
+            </Link>
+            <Link href="/about" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+              About
             </Link>
             <Link href="/blog" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
               Blog

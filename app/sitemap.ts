@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllWorks, getAllPosts } from "@/lib/content";
+import { getAllWorks, getAllPosts, getReleases } from "@/lib/content";
 
 export const dynamic = "force-static";
 
@@ -16,12 +16,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(post.date),
   }));
 
+  const releases = getReleases().map((release) => ({
+    url: `${baseUrl}/releases/${release.slug}`,
+    lastModified: new Date(release.date),
+  }));
+
   return [
     { url: baseUrl, lastModified: new Date() },
-    { url: `${baseUrl}/about`, lastModified: new Date() },
+    { url: `${baseUrl}/services`, lastModified: new Date() },
+    { url: `${baseUrl}/releases`, lastModified: new Date() },
     { url: `${baseUrl}/works`, lastModified: new Date() },
+    { url: `${baseUrl}/partners`, lastModified: new Date() },
+    { url: `${baseUrl}/about`, lastModified: new Date() },
     { url: `${baseUrl}/blog`, lastModified: new Date() },
     ...works,
+    ...releases,
     ...posts,
   ];
 }

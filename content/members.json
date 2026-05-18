@@ -14,7 +14,7 @@
     "id": "ren",
     "name": "Ren",
     "role": "Creative Director / Writer",
-    "bio": "小説家兼ゲームシナリオライター。物語の力でプロダクトに命を吹き込む。Web小説連載中。",
+    "bio": "ゲームシナリオライター兼クリエイティブディレクター。物語の力でプロダクトに命を吹き込む。",
     "avatar": "/images/members/ren.svg",
     "links": {
       "twitter": "https://twitter.com/ren"
@@ -35,7 +35,7 @@
     "id": "yuho-ito",
     "name": "伊東雄歩",
     "role": "Full-Stack Engineer / SaaS Architect",
-    "bio": "SaaS設計からAI統合、セキュリティ診断まで一気通貫で手がけるフルスタックエンジニア。MirAI-POSTの企画・設計・実装を主導。",
+    "bio": "SaaS設計からAI統合・自動化まで一気通貫で手がけるフルスタックエンジニア。AIコンテンツ生成・自動投稿プラットフォーム MirAI-POST の企画・設計・実装を主導。",
     "avatar": "/images/members/yuho-ito.svg",
     "links": {}
   }
